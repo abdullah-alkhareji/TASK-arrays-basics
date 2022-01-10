@@ -36,13 +36,13 @@ hobbies.splice(-2, 2);
 console.log(hobbies.length);
 
 // 13. Print every element in hobbies in a single line
-console.log(`${hobbies}`);
+// console.log(hobbies);
 
-// console.log(hobbies[0]);
-// console.log(hobbies[1]);
-// console.log(hobbies[2]);
-// console.log(hobbies[3]);
-// console.log(hobbies[4]);
+console.log(hobbies[0]);
+console.log(hobbies[1]);
+console.log(hobbies[2]);
+console.log(hobbies[3]);
+console.log(hobbies[4]);
 
 // 14. Empty the array `hobbies`
 hobbies = [];
