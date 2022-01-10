@@ -18,7 +18,7 @@ const numbers = [2, 7, 5, 1, 9];
 console.log(numbers[1]);
 
 // 7. Print out the last hobby from the array `hobbies`
-console.log(numbers[numbers.length - 1]);
+console.log(hobbies[hobbies.length - 1]);
 
 // 8. Add a fake hobby to the end of the array `hobbies`
 hobbies.push("swimming");
