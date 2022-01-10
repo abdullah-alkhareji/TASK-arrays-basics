@@ -14,8 +14,7 @@ hobbies.push("swimming");
 console.log(`9-  ${hobbies[hobbies.length - 1]}`);
 console.log(`10- ${hobbies.length}`);
 
-hobbies.pop();
-hobbies.pop();
+hobbies.splice(-2, 2);
 console.log(`12- ${hobbies.length}`);
 console.log(`13- ${hobbies}`);
 
